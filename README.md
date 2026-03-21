@@ -45,7 +45,7 @@ A real C program was converted into machine instructions and executed on the des
 ### Flow:
 - C program written externally
 - Converted into hexadecimal machine instructions
-- Loaded into instruction memory using `program.mem`
+- Loaded into instruction memory using `memfile.hex`
 - Executed through simulation
 
 This validates correct datapath operation, control logic, and pipeline execution.
